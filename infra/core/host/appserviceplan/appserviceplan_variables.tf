@@ -21,7 +21,7 @@ variable "resource_token" {
 variable "sku_name" {
   description = "The SKU for the plan."
   type        = string
-  default     = "F1"
+  default     = "B2"
 }
 
 variable "os_type" {
