@@ -53,7 +53,7 @@ module "app_plan" {
   location = var.location
   resource_token = local.resource_token
   tags = azurerm_resource_group.rg.tags
-  sku_name = "B1"
+  sku_name = "B2"
   os_type = "Linux"
 }
 
