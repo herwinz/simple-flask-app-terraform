@@ -1,13 +1,14 @@
 {% extends "base.html" %}
-{% block content %}
-<h1>Hello World! ✨✨</h1>
+{% block title %}Home | Flask Website{% endblock %}
 
-<p>Welcome to your Flask website! 🐳</p>
+{% block content %}
+<h1>🚀 Welcome to the Flask Website! 🚀</h1>
+<p>Start your journey with Flask and build something awesome.</p>
 
 <form method="get" action="/hello">
-	<label>What's your name?
-		<input type="text" name="name">
-	</label>
-	<button type="submit">Say Hello!</button>
+    <label>What’s your name?
+        <input type="text" name="name">
+    </label>
+    <button type="submit">Say Hello!</button>
 </form>
 {% endblock %}

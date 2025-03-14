@@ -1,9 +1,13 @@
 {% extends "base.html" %}
+{% block title %}Hello! | Flask Website{% endblock %}
 
 {% block content %}
 {% if name %}
-<h1>Hello, {{ name}}! 🙋‍♂️🙋‍♀️</h1>
+<h1>Hello, {{ name }}! 👋</h1>
+<p>Hope you have a fantastic day! 🌟</p>
 {% else %}
-<h1>Anonymous, are we?? 🤔</h1>
+<h1>Hey there, mysterious stranger! 🤔</h1>
+<p>What’s your name? 🤷‍♂️</p>
 {% endif %}
+<a href="/" class="btn">Back to Home</a>
 {% endblock %}

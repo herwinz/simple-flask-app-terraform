@@ -1,14 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Flask Website</title>
-	<link href="/static/styles.css" rel="stylesheet" type="text/css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Flask Website{% endblock %}</title>
+    <link href="/static/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/hello">Say Hello</a></li>
+        </ul>
+    </nav>
 
-{% block content %}
-{% endblock %}
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
 
+    <footer>
+        <p>&copy; 2025 Flask Website. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
