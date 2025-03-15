@@ -1,0 +1,2349 @@
+{
+    "cost": 2878,
+    "timespan": "2025-03-14T04:28:24Z/2025-03-15T04:28:24Z",
+    "interval": "PT5M",
+    "value": [
+        {
+            "id": "/subscriptions/3bff15a8-79cf-44d3-b98f-94606c8f3a60/resourceGroups/rg-dev/providers/Microsoft.Web/sites/app-web-yzcznwy1y2zhm/providers/Microsoft.Insights/metrics/CpuTime",
+            "type": "Microsoft.Insights/metrics",
+            "name": {
+                "value": "CpuTime",
+                "localizedValue": "CPU Time"
+            },
+            "displayDescription": "The amount of CPU consumed by the app, in seconds. For more information about this metric. Please see https://aka.ms/website-monitor-cpu-time-vs-cpu-percentage (CPU time vs CPU percentage). For WebApps only.",
+            "unit": "Seconds",
+            "timeseries": [
+                {
+                    "metadatavalues": [],
+                    "data": [
+                        {
+                            "timeStamp": "2025-03-14T04:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T04:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T04:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T04:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T04:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T04:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T04:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T05:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T05:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T05:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T05:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T05:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T05:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T05:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T05:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T05:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T05:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T05:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T05:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T06:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T06:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T06:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T06:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T06:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T06:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T06:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T06:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T06:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T06:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T06:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T06:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T07:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T07:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T07:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T07:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T07:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T07:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T07:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T07:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T07:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T07:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T07:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T07:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T08:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T08:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T08:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T08:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T08:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T08:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T08:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T08:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T08:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T08:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T08:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T08:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T09:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T09:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T09:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T09:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T09:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T09:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T09:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T09:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T09:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T09:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T09:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T09:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T10:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T10:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T10:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T10:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T10:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T10:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T10:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T10:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T10:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T10:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T10:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T10:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T11:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T11:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T11:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T11:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T11:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T11:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T11:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T11:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T11:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T11:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T11:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T11:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T12:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T12:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T12:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T12:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T12:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T12:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T12:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T12:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T12:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T12:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T12:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T12:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T13:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T13:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T13:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T13:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T13:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T13:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T13:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T13:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T13:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T13:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T13:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T13:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T14:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T14:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T14:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T14:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T14:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T14:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T14:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T14:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T14:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T14:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T14:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T14:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T15:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T15:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T15:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T15:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T15:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T15:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T15:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T15:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T15:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T15:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T15:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T15:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T16:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T16:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T16:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T16:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T16:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T16:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T16:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T16:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T16:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T16:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T16:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T16:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T17:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T17:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T17:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T17:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T17:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T17:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T17:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T17:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T17:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T17:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T17:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T17:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T18:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T18:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T18:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T18:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T18:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T18:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T18:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T18:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T18:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T18:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T18:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T18:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T19:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T19:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T19:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T19:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T19:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T19:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T19:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T19:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T19:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T19:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T19:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T19:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T20:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T20:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T20:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T20:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T20:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T20:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T20:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T20:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T20:43:00Z",
+                            "average": 11809.5
+                        },
+                        {
+                            "timeStamp": "2025-03-14T20:48:00Z",
+                            "average": 882.4
+                        },
+                        {
+                            "timeStamp": "2025-03-14T20:53:00Z",
+                            "average": 2427.2
+                        },
+                        {
+                            "timeStamp": "2025-03-14T20:58:00Z",
+                            "average": 773.8
+                        },
+                        {
+                            "timeStamp": "2025-03-14T21:03:00Z",
+                            "average": 782.6
+                        },
+                        {
+                            "timeStamp": "2025-03-14T21:08:00Z",
+                            "average": 751.6
+                        },
+                        {
+                            "timeStamp": "2025-03-14T21:13:00Z",
+                            "average": 2511.6
+                        },
+                        {
+                            "timeStamp": "2025-03-14T21:18:00Z",
+                            "average": 3452.5
+                        },
+                        {
+                            "timeStamp": "2025-03-14T21:23:00Z",
+                            "average": 755.6
+                        },
+                        {
+                            "timeStamp": "2025-03-14T21:28:00Z",
+                            "average": 754
+                        },
+                        {
+                            "timeStamp": "2025-03-14T21:33:00Z",
+                            "average": 761.6
+                        },
+                        {
+                            "timeStamp": "2025-03-14T21:38:00Z",
+                            "average": 719.8
+                        },
+                        {
+                            "timeStamp": "2025-03-14T21:43:00Z",
+                            "average": 759.6
+                        },
+                        {
+                            "timeStamp": "2025-03-14T21:48:00Z",
+                            "average": 738
+                        },
+                        {
+                            "timeStamp": "2025-03-14T21:53:00Z",
+                            "average": 766.4
+                        },
+                        {
+                            "timeStamp": "2025-03-14T21:58:00Z",
+                            "average": 756.6
+                        },
+                        {
+                            "timeStamp": "2025-03-14T22:03:00Z",
+                            "average": 745.8
+                        },
+                        {
+                            "timeStamp": "2025-03-14T22:08:00Z",
+                            "average": 745.2
+                        },
+                        {
+                            "timeStamp": "2025-03-14T22:13:00Z",
+                            "average": 735
+                        },
+                        {
+                            "timeStamp": "2025-03-14T22:18:00Z",
+                            "average": 761.4
+                        },
+                        {
+                            "timeStamp": "2025-03-14T22:23:00Z",
+                            "average": 739.4
+                        },
+                        {
+                            "timeStamp": "2025-03-14T22:28:00Z",
+                            "average": 739.6
+                        },
+                        {
+                            "timeStamp": "2025-03-14T22:33:00Z",
+                            "average": 766.8
+                        },
+                        {
+                            "timeStamp": "2025-03-14T22:38:00Z",
+                            "average": 725
+                        },
+                        {
+                            "timeStamp": "2025-03-14T22:43:00Z",
+                            "average": 721.4
+                        },
+                        {
+                            "timeStamp": "2025-03-14T22:48:00Z",
+                            "average": 731.8
+                        },
+                        {
+                            "timeStamp": "2025-03-14T22:53:00Z",
+                            "average": 752.2
+                        },
+                        {
+                            "timeStamp": "2025-03-14T22:58:00Z",
+                            "average": 761
+                        },
+                        {
+                            "timeStamp": "2025-03-14T23:03:00Z",
+                            "average": 775
+                        },
+                        {
+                            "timeStamp": "2025-03-14T23:08:00Z",
+                            "average": 731.2
+                        },
+                        {
+                            "timeStamp": "2025-03-14T23:13:00Z",
+                            "average": 735.8
+                        },
+                        {
+                            "timeStamp": "2025-03-14T23:18:00Z",
+                            "average": 742.6
+                        },
+                        {
+                            "timeStamp": "2025-03-14T23:23:00Z",
+                            "average": 735.2
+                        },
+                        {
+                            "timeStamp": "2025-03-14T23:28:00Z",
+                            "average": 780.4
+                        },
+                        {
+                            "timeStamp": "2025-03-14T23:33:00Z",
+                            "average": 743.6
+                        },
+                        {
+                            "timeStamp": "2025-03-14T23:38:00Z",
+                            "average": 692.4
+                        },
+                        {
+                            "timeStamp": "2025-03-14T23:43:00Z",
+                            "average": 736.8
+                        },
+                        {
+                            "timeStamp": "2025-03-14T23:48:00Z",
+                            "average": 726.4
+                        },
+                        {
+                            "timeStamp": "2025-03-14T23:53:00Z",
+                            "average": 749.8
+                        },
+                        {
+                            "timeStamp": "2025-03-14T23:58:00Z",
+                            "average": 726.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T00:03:00Z",
+                            "average": 723.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T00:08:00Z",
+                            "average": 802.6
+                        },
+                        {
+                            "timeStamp": "2025-03-15T00:13:00Z",
+                            "average": 820.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T00:18:00Z",
+                            "average": 810.2
+                        },
+                        {
+                            "timeStamp": "2025-03-15T00:23:00Z",
+                            "average": 7616.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T00:28:00Z",
+                            "average": 17555.2
+                        },
+                        {
+                            "timeStamp": "2025-03-15T00:33:00Z",
+                            "average": 18479.6
+                        },
+                        {
+                            "timeStamp": "2025-03-15T00:38:00Z",
+                            "average": 17449.6
+                        },
+                        {
+                            "timeStamp": "2025-03-15T00:43:00Z",
+                            "average": 11454.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T00:48:00Z",
+                            "average": 21218.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T00:53:00Z",
+                            "average": 21165.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T00:58:00Z",
+                            "average": 19482
+                        },
+                        {
+                            "timeStamp": "2025-03-15T01:03:00Z",
+                            "average": 21297.6
+                        },
+                        {
+                            "timeStamp": "2025-03-15T01:08:00Z",
+                            "average": 21563.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T01:13:00Z",
+                            "average": 21893
+                        },
+                        {
+                            "timeStamp": "2025-03-15T01:18:00Z",
+                            "average": 20455.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T01:23:00Z",
+                            "average": 21542
+                        },
+                        {
+                            "timeStamp": "2025-03-15T01:28:00Z",
+                            "average": 2470.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T01:33:00Z",
+                            "average": 764.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T01:38:00Z",
+                            "average": 20631.6
+                        },
+                        {
+                            "timeStamp": "2025-03-15T01:43:00Z",
+                            "average": 21460.2
+                        },
+                        {
+                            "timeStamp": "2025-03-15T01:48:00Z",
+                            "average": 20096.6
+                        },
+                        {
+                            "timeStamp": "2025-03-15T01:53:00Z",
+                            "average": 21745.6
+                        },
+                        {
+                            "timeStamp": "2025-03-15T01:58:00Z",
+                            "average": 21579.6
+                        },
+                        {
+                            "timeStamp": "2025-03-15T02:03:00Z",
+                            "average": 21567.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T02:08:00Z",
+                            "average": 21745.6
+                        },
+                        {
+                            "timeStamp": "2025-03-15T02:13:00Z",
+                            "average": 22138.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T02:18:00Z",
+                            "average": 21927.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T02:23:00Z",
+                            "average": 22359.2
+                        },
+                        {
+                            "timeStamp": "2025-03-15T02:28:00Z",
+                            "average": 21634.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T02:33:00Z",
+                            "average": 22181.2
+                        },
+                        {
+                            "timeStamp": "2025-03-15T02:38:00Z",
+                            "average": 22026.2
+                        },
+                        {
+                            "timeStamp": "2025-03-15T02:43:00Z",
+                            "average": 21909.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T02:48:00Z",
+                            "average": 22363.2
+                        },
+                        {
+                            "timeStamp": "2025-03-15T02:53:00Z",
+                            "average": 21736.2
+                        },
+                        {
+                            "timeStamp": "2025-03-15T02:58:00Z",
+                            "average": 21706.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T03:03:00Z",
+                            "average": 21507
+                        },
+                        {
+                            "timeStamp": "2025-03-15T03:08:00Z",
+                            "average": 22235
+                        },
+                        {
+                            "timeStamp": "2025-03-15T03:13:00Z",
+                            "average": 21453
+                        },
+                        {
+                            "timeStamp": "2025-03-15T03:18:00Z",
+                            "average": 22305.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T03:23:00Z",
+                            "average": 21981
+                        },
+                        {
+                            "timeStamp": "2025-03-15T03:28:00Z",
+                            "average": 21172.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T03:33:00Z",
+                            "average": 21642.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T03:38:00Z",
+                            "average": 21670.2
+                        },
+                        {
+                            "timeStamp": "2025-03-15T03:43:00Z",
+                            "average": 21521.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T03:48:00Z",
+                            "average": 22110
+                        },
+                        {
+                            "timeStamp": "2025-03-15T03:53:00Z",
+                            "average": 17125.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T03:58:00Z",
+                            "average": 792.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T04:03:00Z",
+                            "average": 783.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T04:08:00Z",
+                            "average": 765
+                        },
+                        {
+                            "timeStamp": "2025-03-15T04:13:00Z",
+                            "average": 725.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T04:18:00Z",
+                            "average": 753.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T04:23:00Z",
+                            "average": 734.6
+                        }
+                    ]
+                }
+            ],
+            "errorCode": "Success"
+        },
+        {
+            "id": "/subscriptions/3bff15a8-79cf-44d3-b98f-94606c8f3a60/resourceGroups/rg-dev/providers/Microsoft.Web/sites/app-web-yzcznwy1y2zhm/providers/Microsoft.Insights/metrics/MemoryWorkingSet",
+            "type": "Microsoft.Insights/metrics",
+            "name": {
+                "value": "MemoryWorkingSet",
+                "localizedValue": "Memory working set"
+            },
+            "displayDescription": "The current amount of memory used by the app, in MiB. For WebApps and FunctionApps.",
+            "unit": "Bytes",
+            "timeseries": [
+                {
+                    "metadatavalues": [],
+                    "data": [
+                        {
+                            "timeStamp": "2025-03-14T04:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T04:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T04:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T04:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T04:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T04:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T04:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T05:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T05:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T05:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T05:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T05:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T05:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T05:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T05:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T05:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T05:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T05:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T05:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T06:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T06:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T06:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T06:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T06:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T06:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T06:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T06:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T06:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T06:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T06:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T06:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T07:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T07:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T07:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T07:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T07:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T07:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T07:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T07:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T07:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T07:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T07:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T07:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T08:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T08:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T08:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T08:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T08:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T08:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T08:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T08:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T08:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T08:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T08:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T08:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T09:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T09:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T09:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T09:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T09:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T09:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T09:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T09:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T09:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T09:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T09:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T09:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T10:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T10:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T10:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T10:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T10:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T10:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T10:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T10:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T10:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T10:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T10:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T10:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T11:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T11:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T11:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T11:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T11:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T11:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T11:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T11:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T11:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T11:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T11:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T11:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T12:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T12:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T12:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T12:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T12:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T12:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T12:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T12:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T12:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T12:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T12:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T12:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T13:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T13:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T13:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T13:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T13:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T13:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T13:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T13:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T13:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T13:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T13:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T13:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T14:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T14:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T14:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T14:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T14:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T14:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T14:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T14:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T14:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T14:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T14:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T14:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T15:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T15:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T15:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T15:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T15:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T15:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T15:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T15:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T15:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T15:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T15:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T15:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T16:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T16:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T16:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T16:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T16:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T16:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T16:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T16:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T16:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T16:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T16:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T16:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T17:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T17:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T17:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T17:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T17:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T17:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T17:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T17:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T17:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T17:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T17:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T17:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T18:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T18:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T18:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T18:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T18:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T18:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T18:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T18:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T18:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T18:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T18:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T18:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T19:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T19:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T19:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T19:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T19:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T19:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T19:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T19:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T19:43:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T19:48:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T19:53:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T19:58:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T20:03:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T20:08:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T20:13:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T20:18:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T20:23:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T20:28:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T20:33:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T20:38:00Z",
+                            "average": 0
+                        },
+                        {
+                            "timeStamp": "2025-03-14T20:43:00Z",
+                            "average": 50069472.5
+                        },
+                        {
+                            "timeStamp": "2025-03-14T20:48:00Z",
+                            "average": 86264626.8
+                        },
+                        {
+                            "timeStamp": "2025-03-14T20:53:00Z",
+                            "average": 95424033.6
+                        },
+                        {
+                            "timeStamp": "2025-03-14T20:58:00Z",
+                            "average": 88199099.4
+                        },
+                        {
+                            "timeStamp": "2025-03-14T21:03:00Z",
+                            "average": 82209450.2
+                        },
+                        {
+                            "timeStamp": "2025-03-14T21:08:00Z",
+                            "average": 81721275.6
+                        },
+                        {
+                            "timeStamp": "2025-03-14T21:13:00Z",
+                            "average": 72805239.2
+                        },
+                        {
+                            "timeStamp": "2025-03-14T21:18:00Z",
+                            "average": 88611868.25
+                        },
+                        {
+                            "timeStamp": "2025-03-14T21:23:00Z",
+                            "average": 94444338.8
+                        },
+                        {
+                            "timeStamp": "2025-03-14T21:28:00Z",
+                            "average": 88371745.8
+                        },
+                        {
+                            "timeStamp": "2025-03-14T21:33:00Z",
+                            "average": 86421367
+                        },
+                        {
+                            "timeStamp": "2025-03-14T21:38:00Z",
+                            "average": 85221785.2
+                        },
+                        {
+                            "timeStamp": "2025-03-14T21:43:00Z",
+                            "average": 84042546.8
+                        },
+                        {
+                            "timeStamp": "2025-03-14T21:48:00Z",
+                            "average": 82759543.2
+                        },
+                        {
+                            "timeStamp": "2025-03-14T21:53:00Z",
+                            "average": 82351240.2
+                        },
+                        {
+                            "timeStamp": "2025-03-14T21:58:00Z",
+                            "average": 81635874
+                        },
+                        {
+                            "timeStamp": "2025-03-14T22:03:00Z",
+                            "average": 81062365.6
+                        },
+                        {
+                            "timeStamp": "2025-03-14T22:08:00Z",
+                            "average": 82546209.8
+                        },
+                        {
+                            "timeStamp": "2025-03-14T22:13:00Z",
+                            "average": 81229277.6
+                        },
+                        {
+                            "timeStamp": "2025-03-14T22:18:00Z",
+                            "average": 80030378.4
+                        },
+                        {
+                            "timeStamp": "2025-03-14T22:23:00Z",
+                            "average": 79404646
+                        },
+                        {
+                            "timeStamp": "2025-03-14T22:28:00Z",
+                            "average": 77919641.2
+                        },
+                        {
+                            "timeStamp": "2025-03-14T22:33:00Z",
+                            "average": 76423440.8
+                        },
+                        {
+                            "timeStamp": "2025-03-14T22:38:00Z",
+                            "average": 76080605.4
+                        },
+                        {
+                            "timeStamp": "2025-03-14T22:43:00Z",
+                            "average": 72931737.4
+                        },
+                        {
+                            "timeStamp": "2025-03-14T22:48:00Z",
+                            "average": 71229917.6
+                        },
+                        {
+                            "timeStamp": "2025-03-14T22:53:00Z",
+                            "average": 68630664.4
+                        },
+                        {
+                            "timeStamp": "2025-03-14T22:58:00Z",
+                            "average": 68099276.6
+                        },
+                        {
+                            "timeStamp": "2025-03-14T23:03:00Z",
+                            "average": 66441284.2
+                        },
+                        {
+                            "timeStamp": "2025-03-14T23:08:00Z",
+                            "average": 65732471.2
+                        },
+                        {
+                            "timeStamp": "2025-03-14T23:13:00Z",
+                            "average": 63998088
+                        },
+                        {
+                            "timeStamp": "2025-03-14T23:18:00Z",
+                            "average": 64827733
+                        },
+                        {
+                            "timeStamp": "2025-03-14T23:23:00Z",
+                            "average": 64012424.2
+                        },
+                        {
+                            "timeStamp": "2025-03-14T23:28:00Z",
+                            "average": 60686813.6
+                        },
+                        {
+                            "timeStamp": "2025-03-14T23:33:00Z",
+                            "average": 59481975.2
+                        },
+                        {
+                            "timeStamp": "2025-03-14T23:38:00Z",
+                            "average": 58308812.6
+                        },
+                        {
+                            "timeStamp": "2025-03-14T23:43:00Z",
+                            "average": 57392878.6
+                        },
+                        {
+                            "timeStamp": "2025-03-14T23:48:00Z",
+                            "average": 56796159.8
+                        },
+                        {
+                            "timeStamp": "2025-03-14T23:53:00Z",
+                            "average": 55828138.4
+                        },
+                        {
+                            "timeStamp": "2025-03-14T23:58:00Z",
+                            "average": 56382941.6
+                        },
+                        {
+                            "timeStamp": "2025-03-15T00:03:00Z",
+                            "average": 54356718.6
+                        },
+                        {
+                            "timeStamp": "2025-03-15T00:08:00Z",
+                            "average": 55119803.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T00:13:00Z",
+                            "average": 54555511.2
+                        },
+                        {
+                            "timeStamp": "2025-03-15T00:18:00Z",
+                            "average": 53211750.2
+                        },
+                        {
+                            "timeStamp": "2025-03-15T00:23:00Z",
+                            "average": 56017715
+                        },
+                        {
+                            "timeStamp": "2025-03-15T00:28:00Z",
+                            "average": 61391257.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T00:33:00Z",
+                            "average": 59719679.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T00:38:00Z",
+                            "average": 59319568.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T00:43:00Z",
+                            "average": 77394534
+                        },
+                        {
+                            "timeStamp": "2025-03-15T00:48:00Z",
+                            "average": 146519449.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T00:53:00Z",
+                            "average": 140531643.6
+                        },
+                        {
+                            "timeStamp": "2025-03-15T00:58:00Z",
+                            "average": 138084693
+                        },
+                        {
+                            "timeStamp": "2025-03-15T01:03:00Z",
+                            "average": 135267942.2
+                        },
+                        {
+                            "timeStamp": "2025-03-15T01:08:00Z",
+                            "average": 134073002.2
+                        },
+                        {
+                            "timeStamp": "2025-03-15T01:13:00Z",
+                            "average": 131900688.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T01:18:00Z",
+                            "average": 126830523.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T01:23:00Z",
+                            "average": 118582067
+                        },
+                        {
+                            "timeStamp": "2025-03-15T01:28:00Z",
+                            "average": 108505770.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T01:33:00Z",
+                            "average": 103964262
+                        },
+                        {
+                            "timeStamp": "2025-03-15T01:38:00Z",
+                            "average": 102562883.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T01:43:00Z",
+                            "average": 96923101.6
+                        },
+                        {
+                            "timeStamp": "2025-03-15T01:48:00Z",
+                            "average": 93951453.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T01:53:00Z",
+                            "average": 92422826.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T01:58:00Z",
+                            "average": 92975308.6
+                        },
+                        {
+                            "timeStamp": "2025-03-15T02:03:00Z",
+                            "average": 91650116
+                        },
+                        {
+                            "timeStamp": "2025-03-15T02:08:00Z",
+                            "average": 92300970.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T02:13:00Z",
+                            "average": 90262527.6
+                        },
+                        {
+                            "timeStamp": "2025-03-15T02:18:00Z",
+                            "average": 90546175.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T02:23:00Z",
+                            "average": 88106051.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T02:28:00Z",
+                            "average": 87586269.6
+                        },
+                        {
+                            "timeStamp": "2025-03-15T02:33:00Z",
+                            "average": 85705386.2
+                        },
+                        {
+                            "timeStamp": "2025-03-15T02:38:00Z",
+                            "average": 83855154.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T02:43:00Z",
+                            "average": 82898056.2
+                        },
+                        {
+                            "timeStamp": "2025-03-15T02:48:00Z",
+                            "average": 82259762.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T02:53:00Z",
+                            "average": 78004087.2
+                        },
+                        {
+                            "timeStamp": "2025-03-15T02:58:00Z",
+                            "average": 78168541.6
+                        },
+                        {
+                            "timeStamp": "2025-03-15T03:03:00Z",
+                            "average": 77251925
+                        },
+                        {
+                            "timeStamp": "2025-03-15T03:08:00Z",
+                            "average": 75995135.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T03:13:00Z",
+                            "average": 77417539.6
+                        },
+                        {
+                            "timeStamp": "2025-03-15T03:18:00Z",
+                            "average": 78720819
+                        },
+                        {
+                            "timeStamp": "2025-03-15T03:23:00Z",
+                            "average": 76376951.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T03:28:00Z",
+                            "average": 77487035.6
+                        },
+                        {
+                            "timeStamp": "2025-03-15T03:33:00Z",
+                            "average": 76851950.6
+                        },
+                        {
+                            "timeStamp": "2025-03-15T03:38:00Z",
+                            "average": 77599402.2
+                        },
+                        {
+                            "timeStamp": "2025-03-15T03:43:00Z",
+                            "average": 77689923.6
+                        },
+                        {
+                            "timeStamp": "2025-03-15T03:48:00Z",
+                            "average": 78162261.2
+                        },
+                        {
+                            "timeStamp": "2025-03-15T03:53:00Z",
+                            "average": 76760405
+                        },
+                        {
+                            "timeStamp": "2025-03-15T03:58:00Z",
+                            "average": 74846958.6
+                        },
+                        {
+                            "timeStamp": "2025-03-15T04:03:00Z",
+                            "average": 74574233.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T04:08:00Z",
+                            "average": 75831773.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T04:13:00Z",
+                            "average": 77811233.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T04:18:00Z",
+                            "average": 78459289.2
+                        },
+                        {
+                            "timeStamp": "2025-03-15T04:23:00Z",
+                            "average": 78074606.6
+                        }
+                    ]
+                }
+            ],
+            "errorCode": "Success"
+        }
+    ],
+    "namespace": "Microsoft.Web/sites",
+    "resourceregion": "centralus"
+}
