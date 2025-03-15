@@ -1,6 +1,6 @@
 {
     "cost": 2878,
-    "timespan": "2025-03-14T04:28:24Z/2025-03-15T04:28:24Z",
+    "timespan": "2025-03-14T04:58:54Z/2025-03-15T04:58:54Z",
     "interval": "PT5M",
     "value": [
         {
@@ -16,30 +16,6 @@
                 {
                     "metadatavalues": [],
                     "data": [
-                        {
-                            "timeStamp": "2025-03-14T04:28:00Z",
-                            "average": 0
-                        },
-                        {
-                            "timeStamp": "2025-03-14T04:33:00Z",
-                            "average": 0
-                        },
-                        {
-                            "timeStamp": "2025-03-14T04:38:00Z",
-                            "average": 0
-                        },
-                        {
-                            "timeStamp": "2025-03-14T04:43:00Z",
-                            "average": 0
-                        },
-                        {
-                            "timeStamp": "2025-03-14T04:48:00Z",
-                            "average": 0
-                        },
-                        {
-                            "timeStamp": "2025-03-14T04:53:00Z",
-                            "average": 0
-                        },
                         {
                             "timeStamp": "2025-03-14T04:58:00Z",
                             "average": 0
@@ -1167,6 +1143,30 @@
                         {
                             "timeStamp": "2025-03-15T04:23:00Z",
                             "average": 734.6
+                        },
+                        {
+                            "timeStamp": "2025-03-15T04:28:00Z",
+                            "average": 756.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T04:33:00Z",
+                            "average": 758.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T04:38:00Z",
+                            "average": 733.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T04:43:00Z",
+                            "average": 751.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T04:48:00Z",
+                            "average": 771.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T04:53:00Z",
+                            "average": 760.8
                         }
                     ]
                 }
@@ -1186,30 +1186,6 @@
                 {
                     "metadatavalues": [],
                     "data": [
-                        {
-                            "timeStamp": "2025-03-14T04:28:00Z",
-                            "average": 0
-                        },
-                        {
-                            "timeStamp": "2025-03-14T04:33:00Z",
-                            "average": 0
-                        },
-                        {
-                            "timeStamp": "2025-03-14T04:38:00Z",
-                            "average": 0
-                        },
-                        {
-                            "timeStamp": "2025-03-14T04:43:00Z",
-                            "average": 0
-                        },
-                        {
-                            "timeStamp": "2025-03-14T04:48:00Z",
-                            "average": 0
-                        },
-                        {
-                            "timeStamp": "2025-03-14T04:53:00Z",
-                            "average": 0
-                        },
                         {
                             "timeStamp": "2025-03-14T04:58:00Z",
                             "average": 0
@@ -2337,6 +2313,30 @@
                         {
                             "timeStamp": "2025-03-15T04:23:00Z",
                             "average": 78074606.6
+                        },
+                        {
+                            "timeStamp": "2025-03-15T04:28:00Z",
+                            "average": 78755089
+                        },
+                        {
+                            "timeStamp": "2025-03-15T04:33:00Z",
+                            "average": 78582305.8
+                        },
+                        {
+                            "timeStamp": "2025-03-15T04:38:00Z",
+                            "average": 78793522.6
+                        },
+                        {
+                            "timeStamp": "2025-03-15T04:43:00Z",
+                            "average": 78664157.6
+                        },
+                        {
+                            "timeStamp": "2025-03-15T04:48:00Z",
+                            "average": 77507310.4
+                        },
+                        {
+                            "timeStamp": "2025-03-15T04:53:00Z",
+                            "average": 78172227.8
                         }
                     ]
                 }
