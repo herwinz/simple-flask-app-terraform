@@ -51,7 +51,7 @@ METRIC_NAMES = [
 ]
 
 params = {
-    "timespan": "P1D",  # Ambil data 1 hari terakhir
+    "timespan": "P5D",  # Ambil data 1 hari terakhir
     "interval": "PT5M",  # Data setiap 5 menit
     "metricnames": ",".join(METRIC_NAMES),
     "aggregation": "Average"
