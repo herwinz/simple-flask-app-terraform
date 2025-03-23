@@ -31,7 +31,7 @@ metrics = ["CpuPercentage", "MemoryPercentage"]
 RESOURCE_ID = f"/subscriptions/{SUBSCRIPTION_ID}/resourceGroups/{RESOURCE_GROUP}/providers/Microsoft.Web/serverfarms/{APP_SERVICE_PLAN}"
 
 params = {
-    "timespan": "P7D",  # 7 hari
+    "timespan": "P30D",  # 30 hari
     "interval": "PT1H",  # setiap jam
     "metricnames": ",".join(metrics),
     "aggregation": "Average"
