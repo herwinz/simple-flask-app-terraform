@@ -88,9 +88,9 @@ y_pred_dt = dt_model.predict(X_test)
 print(f"📊 Decision Tree Accuracy: {accuracy_score(y_test, y_pred_dt):.2f}")
 print(classification_report(y_test, y_pred_dt))
 
-# Confusion Matrix
+# Confusion Matrix Decision Tree
 plt.figure(figsize=(6, 4))
-sns.heatmap(confusion_matrix(y_test, y_pred_dt), annot=True, fmt="d", cmap="Blues")
+sns.heatmap(confusion_matrix(y_test, y_pred_dt, labels=[0, 1, 2]), annot=True, fmt="d", cmap="Blues")
 plt.title("Confusion Matrix - Decision Tree")
 plt.xlabel("Predicted")
 plt.ylabel("Actual")
@@ -103,14 +103,15 @@ y_pred_rf = rf_model.predict(X_test)
 print(f"🌲 Random Forest Accuracy: {accuracy_score(y_test, y_pred_rf):.2f}")
 print(classification_report(y_test, y_pred_rf))
 
+# Confusion Matrix Random Forest
 plt.figure(figsize=(6, 4))
-sns.heatmap(confusion_matrix(y_test, y_pred_rf), annot=True, fmt="d", cmap="Greens")
+sns.heatmap(confusion_matrix(y_test, y_pred_rf, labels=[0, 1, 2]), annot=True, fmt="d", cmap="Greens")
 plt.title("Confusion Matrix - Random Forest")
 plt.xlabel("Predicted")
 plt.ylabel("Actual")
 plt.show()
 
-# ------------------- 6. PREDIKSI -------------------
+# ------------------- 6. PREDIKSI CONTOH -------------------
 def predict_scaling(cpu, mem, hour, day):
     input_df = pd.DataFrame([[cpu, mem, hour, day]], columns=["CpuPercentage", "MemoryPercentage", "hour", "day_of_week"])
     pred = rf_model.predict(input_df)[0]
@@ -124,3 +125,23 @@ def predict_scaling(cpu, mem, hour, day):
 # Contoh Prediksi
 example = predict_scaling(cpu=85, mem=90, hour=14, day=2)
 print("📢 Scaling Recommendation:", example)
+
+# ------------------- 7. PREDIKSI MASSAL KE SEMUA DATA -------------------
+df_all["DecisionTree_Status"] = dt_model.predict(X)
+df_all["RandomForest_Status"] = rf_model.predict(X)
+
+# Ubah status angka ke label string
+status_map = {
+    0: "Underutilized",
+    1: "Optimal",
+    2: "Overutilized"
+}
+df_all["DecisionTree_Status"] = df_all["DecisionTree_Status"].map(status_map)
+df_all["RandomForest_Status"] = df_all["RandomForest_Status"].map(status_map)
+
+# Pastikan datetime tidak pakai timezone (biar bisa diexport ke Excel)
+df_all["timestamp"] = df_all["timestamp"].dt.tz_localize(None)
+
+# Simpan ke Excel
+df_all.to_excel("azure_app_plan_metrics_with_predictions.xlsx", index=False)
+print("📁 File disimpan dengan prediksi status ML: 'azure_app_plan_metrics_with_predictions.xlsx'")
