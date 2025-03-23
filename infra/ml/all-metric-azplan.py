@@ -38,10 +38,6 @@ METRICS_URL = f"https://management.azure.com{RESOURCE_ID}/providers/microsoft.in
 METRIC_NAMES = [
     "CpuPercentage",
     "MemoryPercentage",
-    "DiskQueueLength",
-    "HttpQueueLength",
-    "BytesReceived",
-    "BytesSent"
 ]
 
 params = {
