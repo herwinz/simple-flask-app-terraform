@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: infra/ml/new
+        working-directory: infra
 
     steps:
       - name: Checkout repository
@@ -70,4 +70,4 @@ jobs:
           azd env new sandbox --subscription "${{ secrets.AZURE_SUBSCRIPTION_ID }}"
 
       - name: Deploy with azd
-        run: azd up
+        run: azd down
