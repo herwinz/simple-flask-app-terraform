@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: infra/ml
+        working-directory: infra/ml/new
 
     steps:
       - name: Checkout repository
