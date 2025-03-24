@@ -17,6 +17,9 @@ jobs:
       run:
         working-directory: infra/ml
 
+    env:
+      AZURE_TENANT_ID: $AZURE_TENANT_ID  # Now using env variable
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -37,10 +40,10 @@ jobs:
           curl -fsSL https://aka.ms/install-azd.sh | bash
           echo "$HOME/.azure-dev/bin" >> $GITHUB_PATH  # Ensure azd is in PATH
 
-      - name: Debug Azure Secrets
+      - name: Debug Azure Environment Variables
         run: |
           echo "Checking if AZURE_TENANT_ID is set..."
-          if [[ -z "${{ secrets.AZURE_TENANT_ID }}" ]]; then
+          if [[ -z "$AZURE_TENANT_ID" ]]; then
             echo "ERROR: AZURE_TENANT_ID is not set!"
             exit 1
           else
@@ -51,7 +54,6 @@ jobs:
         env:
           AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
           AZURE_CLIENT_SECRET: ${{ secrets.AZURE_CLIENT_SECRET }}
-          AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
         run: |
           echo "Logging into Azure..."
           az login --service-principal --username "$AZURE_CLIENT_ID" --password "$AZURE_CLIENT_SECRET" --tenant "$AZURE_TENANT_ID"
