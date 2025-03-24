@@ -39,24 +39,28 @@ jobs:
 
       - name: Debug Azure Environment Variables
         run: |
-          echo "AZURE_TENANT_ID is: $AZURE_TENANT_ID"
-          if [[ -z "$AZURE_TENANT_ID" ]]; then
-            echo "ERROR: AZURE_TENANT_ID is not set!"
-            exit 1
-          fi
+          echo "Checking environment variables..."
+          echo "AZURE_TENANT_ID: $AZURE_TENANT_ID"
+          echo "AZURE_CLIENT_ID: $AZURE_CLIENT_ID"
+          echo "AZURE_CLIENT_SECRET: (hidden)"
         env:
-          AZURE_TENANT_ID: $AZURE_TENANT_ID  # ✅ Using environment variable
+          AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
+          AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
+          AZURE_CLIENT_SECRET: ${{ secrets.AZURE_CLIENT_SECRET }}
 
       - name: Azure CLI login using Service Principal
         run: |
           echo "Logging into Azure..."
-          az login --service-principal --username="$AZURE_CLIENT_ID" --password="$AZURE_CLIENT_SECRET" --tenant="$AZURE_TENANT_ID"
+          az login --service-principal \
+            --username="$AZURE_CLIENT_ID" \
+            --password="$AZURE_CLIENT_SECRET" \
+            --tenant="$AZURE_TENANT_ID"
         env:
-          AZURE_CLIENT_ID: $AZURE_CLIENT_ID
-          AZURE_CLIENT_SECRET: $AZURE_CLIENT_SECRET
-          AZURE_TENANT_ID: $AZURE_TENANT_ID
+          AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
+          AZURE_CLIENT_SECRET: ${{ secrets.AZURE_CLIENT_SECRET }}
+          AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
 
       - name: Deploy with azd
         run: azd up
         env:
-          AZURE_TENANT_ID: $AZURE_TENANT_ID
+          AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
