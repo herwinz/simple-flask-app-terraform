@@ -4,3 +4,4 @@
 __pycache__/
 
 *.hcl
+infra/.DS_Store
