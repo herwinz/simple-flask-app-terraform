@@ -61,6 +61,8 @@ jobs:
           AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
 
       - name: Deploy with azd
-        run: azd up
+        run: |
+          azd env new sandbox  # Set a valid environment name (change "production" as needed)
+          azd up
         env:
           AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
