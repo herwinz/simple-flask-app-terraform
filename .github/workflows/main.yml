@@ -38,9 +38,11 @@ jobs:
           echo "$HOME/.azure-dev/bin" >> $GITHUB_PATH  # Ensure azd is in PATH
 
       - name: Azure CLI login
+        env:
+          AZURE_USERNAME: ${{ secrets.AZURE_USERNAME }}
+          AZURE_PASSWORD: ${{ secrets.AZURE_PASSWORD }}
         run: |
-          azd auth login
-          az login
+          az login --username "$AZURE_USERNAME" --password "$AZURE_PASSWORD"
 
       - name: Set environment variables
         run: echo "AZURE_CLIENT_SECRET=${{ secrets.AZURE_CLIENT_SECRET }}" >> $GITHUB_ENV
