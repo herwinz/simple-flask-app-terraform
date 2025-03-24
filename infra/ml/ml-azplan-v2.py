@@ -35,7 +35,7 @@ RESOURCE_ID = f"/subscriptions/{SUBSCRIPTION_ID}/resourceGroups/{RESOURCE_GROUP}
 
 params = {
     "timespan": "P30D",
-    "interval": "PT1H",
+    "interval": "PT5M",  # PT1M,PT5M,PT15M,PT30M,PT1H,PT6H,PT12H,P1D
     "metricnames": ",".join(metrics),
     "aggregation": "Average"
 }
