@@ -18,7 +18,7 @@ jobs:
         working-directory: infra/ml
 
     env:
-      AZURE_TENANT_ID: $AZURE_TENANT_ID  # Now using env variable
+      AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}  # ✅ Fetching from GitHub Secrets
 
     steps:
       - name: Checkout repository
@@ -39,7 +39,6 @@ jobs:
         run: |
           curl -fsSL https://aka.ms/install-azd.sh | bash
           echo "$HOME/.azure-dev/bin" >> $GITHUB_PATH  # Ensure azd is in PATH
-
 
       - name: Debug Azure Environment Variables
         run: |
