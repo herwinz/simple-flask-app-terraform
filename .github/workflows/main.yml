@@ -66,8 +66,9 @@ jobs:
             --tenant-id "${{ secrets.AZURE_TENANT_ID }}"
 
       - name: Initialize Azure Developer CLI Environment
-        run: |
+        run: |          
           azd env new sandbox --subscription "${{ secrets.AZURE_SUBSCRIPTION_ID }}"
+          azd config set default-location southeastasia
 
       - name: Deploy with azd
-        run: azd down
+        run: azd up
