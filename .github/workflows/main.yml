@@ -40,14 +40,13 @@ jobs:
           curl -fsSL https://aka.ms/install-azd.sh | bash
           echo "$HOME/.azure-dev/bin" >> $GITHUB_PATH  # Ensure azd is in PATH
 
+
       - name: Debug Azure Environment Variables
         run: |
-          echo "Checking if AZURE_TENANT_ID is set..."
+          echo "AZURE_TENANT_ID is: $AZURE_TENANT_ID"
           if [[ -z "$AZURE_TENANT_ID" ]]; then
             echo "ERROR: AZURE_TENANT_ID is not set!"
             exit 1
-          else
-            echo "AZURE_TENANT_ID is set!"
           fi
 
       - name: Azure CLI login using Service Principal
