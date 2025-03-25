@@ -6,19 +6,6 @@ on:
       - main
   pull_request:
 
-  workflow_dispatch:
-    inputs:
-      action_type:
-        description: 'Action to perform (up, deploy, monitor, down)'
-        required: true
-        default: 'deploy'
-        type: choice
-        options:
-          - up
-          - deploy
-          - monitor
-          - down
-
 permissions:
   id-token: write
   contents: read
@@ -83,13 +70,5 @@ jobs:
           azd env new sandbox --subscription "${{ secrets.AZURE_SUBSCRIPTION_ID }}"
           azd config set default-location southeastasia
 
-      - name: Execute azd Command
-        run: |
-          set -e
-          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
-            echo "Running azd ${{ github.event.inputs.action_type }}"
-            azd ${{ github.event.inputs.action_type }}
-          else
-            echo "Running azd deploy (default for push/pull_request)"
-            azd deploy
-          fi
+      - name: Deploy with azd
+        run: azd up
