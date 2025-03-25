@@ -184,3 +184,31 @@ df_all["timestamp"] = df_all["timestamp"].dt.tz_localize(None)  # Menghapus time
 df_all.to_excel("azure_app_plan_metrics_with_recommendations.xlsx", index=False)
 
 print("\U0001F4C1 File disimpan: azure_app_plan_metrics_with_recommendations.xlsx")
+
+# ------------------- 11. PILIH SKU TERBAIK DARI FILE EXCEL -------------------
+# Menentukan SKU yang paling sering direkomendasikan di kolom 'Rekomendasi_Plan'
+recommended_plan = df_all['Rekomendasi_Plan'].mode()[0]
+print(f"Rekomendasi Plan yang dipilih untuk keseluruhan data: {recommended_plan}")
+
+# Mengambil SKU yang sesuai dari file Azure_Service_Plan_Option.xlsx
+sku_for_plan = df_plans[df_plans['Name'] == recommended_plan]['SKU'].iloc[0]
+print(f"SKU yang dipilih untuk Rekomendasi Plan '{recommended_plan}': {sku_for_plan}")
+
+# ------------------- 12. UPDATE main.tf DENGAN SKU TERPILIH -------------------
+# Tentukan jalur lengkap ke file main.tf yang ada di luar folder yang ada
+main_tf_path = '../main.tf'  # Sesuaikan dengan jalur lengkap file main.tf
+
+# Membaca file main.tf
+with open(main_tf_path, 'r') as file:
+    tf_content = file.readlines()
+
+# Mencari dan mengganti nilai sku_name dengan SKU yang dipilih
+for i, line in enumerate(tf_content):
+    if 'sku_name' in line:
+        tf_content[i] = f'  sku_name = "{sku_for_plan}"\n'  # Ganti nilai sku_name dengan SKU yang dipilih
+
+# Menyimpan perubahan ke main.tf
+with open(main_tf_path, 'w') as file:
+    file.writelines(tf_content)
+
+print(f"File Terraform ({main_tf_path}) berhasil diperbarui dengan SKU: {sku_for_plan}")
