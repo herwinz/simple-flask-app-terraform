@@ -85,5 +85,11 @@ jobs:
 
       - name: Execute azd Command
         run: |
-          echo "Running azd ${{ github.event.inputs.action_type }}"
-          azd ${{ github.event.inputs.action_type }}
+          set -e
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "Running azd ${{ github.event.inputs.action_type }}"
+            azd ${{ github.event.inputs.action_type }}
+          else
+            echo "Running azd deploy (default for push/pull_request)"
+            azd deploy
+          fi
